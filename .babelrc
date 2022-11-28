@@ -1,3 +1,7 @@
 {
-  "presets" : ["@babel/preset-react", "@babel/preset-env"]
+  "presets": [
+    "@babel/preset-react",
+    "@babel/preset-env",
+    "@emotion/babel-preset-css-prop" // emotion에서 css prop 사용할 때 필요
+  ]
 }
